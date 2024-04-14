@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family:"MiSans";
+	src:url("font/MiSans VF.ttf")
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+html{
+	font-family: "MiSans";
+}
+div{
+	/*border:red 3px solid;*/
+	padding:1px;
+	margin:3px;
+	
+}
+.menu{
+	text-align:center;
+}
+.app{
+	width:100%;
+	height:100%;
+}
+.header{
+	background:url("../images/headerbg.jpg") right no-repeat;
+	background-size:cover;
+}
+header{
+	background:rgba(255,255,255,0.60);
+}
+header h1{
+	font-size:50pt;
+	font-weight:normal;
+	line-height:90px;
+}
+header h2{
+	font-size:30pt;
+	font-weight:normal;
+	line-height:40px;
+	text-align:right;
+}
+.menu{
+	background:pink;
+}
+.submenu a{
+	font-size:18pt;
+}
+.submenu{
+	width:130px;
+	display:inline-block;
+	text-align:center;
+	border-radius:15px;
+	background-color:orange;
+}
+table,table td{
+	width:100%;
+}
+table td{
+	width:50%;
+}
+table td div{
+	width:95%;
+	text-align:center;
+	margin:5px auto 3px auto;
+	background-color:lightsalmon;
+	border-radius:7px;
+}
+.album{
+	height:500px;
+}
+.title{
+	text-align:center;
+	height:30px;
+	font-size:18pt;
+	background-color:aquamarine;
+}
+.albumcontent{
+	height:440px;
+}
+.quote{
+	height:250px;
+}
+.quotecontent{
+	height:190px;
+}
+#quotetext{
+	font-weight:500;
+	margin:10%;
+}
+.news{
+	height:500px;
+}
+.newscontent{
+	height:440px;
+}
+.vote{
+	height:400px;
+}
+.votecontent{
+	height:340px;
+}
+.chat{
+	height:132px;
+	margin-top:10px;
+	text-align:center;
+	line-height:130px;
+	font-size:25pt;
+	background:linear-gradient(aqua,lightgreen);
+}
+.footer{
+	width:100%;
+	height:200px;
+	background-color:#303030;
+}
+footer{
+	color:white;
+	text-align:center;
+	padding:40px;
+}
+footer span a{
+	color:white;
+}
+.member{
+	width:210px;
+	height:260px;
+	background-color:lightyellow;
+	display:inline-block;
+	border-radius:7px;
+}
+.head{
+	height:200px;
+	border-radius:100%;
+	border:2px solid lightblue;
+}
+.name{
+	height:35px;
+	border-radius:7px;
+	text-align:center;
+	line-height:35px;
+	font-size:20pt;
+	background-color:aquamarine;
+}
+.say{
+	height:500px;
+}
+.saycontent{
+	height:440px;
+}
