@@ -149,3 +149,10 @@ footer span a{
 .saycontent{
 	height:440px;
 }
+.breaking{
+	background-color:antiquewhite;
+}
+.date{
+	display:block;
+	text-align:right;
+}
