@@ -83,3 +83,32 @@ footer span a{
 .gallery .title{
 	border-radius:7px;
 }
+.prize{
+	height:250px;
+	text-align:center;
+	margin:5px auto 3px auto;
+	background-color:lightsalmon;
+	border-radius:7px;
+}
+.prize table td{
+	height:237px;
+}
+.prizepic{
+	width:210px;
+	height:210px;
+	border-radius:7px;
+}
+.prizeborder{
+	background-color:aquamarine;
+	border-radius:7px;
+}
+.prizecontent{
+	width:100%;
+}
+.prizedivcontent{
+	text-align:left;
+	color:white;
+}
+.prizedivcontent span{
+	text-shadow:black 2px 1px;
+}

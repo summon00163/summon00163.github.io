@@ -156,3 +156,16 @@ footer span a{
 	display:block;
 	text-align:right;
 }
+.gallarycontent{
+	height:190px;
+}
+.gallery{
+	height:250px;
+	text-align:center;
+	margin:5px auto 3px auto;
+	background-color:lightsalmon;
+	border-radius:7px;
+}
+.gallery .title{
+	border-radius:7px;
+}
