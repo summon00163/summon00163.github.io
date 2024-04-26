@@ -108,7 +108,11 @@ footer span a{
 .prizedivcontent{
 	text-align:left;
 	color:white;
+	line-height:30px;
 }
-.prizedivcontent span{
+.prizedivcontent *{
 	text-shadow:black 2px 1px;
+}
+.prizedivcontent h1{
+	font-weight:550;
 }
