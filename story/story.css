@@ -116,3 +116,22 @@ footer span a{
 .prizedivcontent h1{
 	font-weight:550;
 }
+.sayingcontent{
+}
+.saying{
+	padding-left:20px;
+	margin:5px auto 3px auto;
+	background-color:darkgrey;
+	border-radius:7px;
+}
+.sayingtitle h2{
+	font-weight:400;
+}
+.sayingcontent{
+	text-indent:20px;
+	margin:20px;
+}
+.sayingtitle *{
+	display:inline-block;
+	margin-left:10px;
+}
