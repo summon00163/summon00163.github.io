@@ -148,6 +148,7 @@ footer span a{
 }
 .saycontent{
 	height:440px;
+	overflow:auto;
 }
 .breaking{
 	background-color:antiquewhite;
