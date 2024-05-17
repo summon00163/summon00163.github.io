@@ -182,3 +182,7 @@ footer span a{
 .learncontent{
 	height:440px;
 }
+marquee{
+	background-color:lightsalmon;
+	border-radius:7px;
+}
