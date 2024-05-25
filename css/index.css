@@ -134,6 +134,7 @@ footer span a{
 	height:200px;
 	border-radius:100%;
 	border:2px solid lightblue;
+	overflow:hidden;
 }
 .name{
 	height:35px;

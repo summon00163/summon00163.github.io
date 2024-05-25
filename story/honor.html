@@ -20,7 +20,7 @@
 					</div>
 				</header>
 			</div>
-			<div class="main">
+			<div class="main" id="container">
 				<div class="prize">
 					<table>
 						<td class="prizeborder">
@@ -38,6 +38,29 @@
 						</td>
 					</table>
 				</div>
+				<script type="text/x-handlebars-template" id="template">
+					{{#each this}}
+
+					<div class="prize">
+						<table>
+							<td class="prizeborder">
+								<div class="prizepic">
+									<img alt="pic" src="images/{{pic}}"/>
+								</div>
+							</td>
+							<td class="prizecontent">
+								<div class="prizedivcontent">
+									<h1>{{name}}</h1>
+									<span>获得时间：{{date}}</span><br/>
+									<span>获得等级：{{level}}</span><br/>
+									<span>背后的故事：{{story}}</span><br/>
+								</div>
+							</td>
+						</table>
+					</div>
+
+					{{/each}}
+            	</script>
 			</div>
 			<div class="footer">
 				<footer>
@@ -48,5 +71,15 @@
 				</footer>
 			</div>
 		</div>
+		<script src="../js/handlebars.js" type="text/javascript"></script>
+		<script>
+			var honors=[
+				{pic:"?",name:"[荣誉名称]1",date:"1999-12-31",level:"1",story:""},
+						];
+			var container = document.querySelector('#container');
+			var templateDom = document.querySelector('#template');
+			var template = Handlebars.compile(templateDom.innerHTML);
+			container.innerHTML = template(honors);
+		</script>
 	</body>
 </html>
