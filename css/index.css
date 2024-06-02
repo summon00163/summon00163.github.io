@@ -187,3 +187,11 @@ marquee{
 	background-color:lightsalmon;
 	border-radius:7px;
 }
+#show{
+	display: flex;
+  	justify-content: center;
+  	align-items: center; 
+}
+#show img{
+	width:100%;
+}
