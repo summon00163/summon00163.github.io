@@ -64,13 +64,18 @@ header h1{
 footer{
 	color:white;
 	text-align:center;
-	padding:35px;
+	padding:25px;
 }
 footer span a{
 	color:white;
 }
-.gallarycontent{
+.gallerycontent{
 	height:190px;
+	display:flex;
+	overflow:hidden;
+}
+.gallerycontent img{
+	height:180px;
 }
 .gallery{
 	height:250px;

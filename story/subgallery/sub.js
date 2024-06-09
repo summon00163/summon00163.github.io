@@ -1,5 +1,5 @@
 var picCountA=9;
-var picCountP=1;
+var picCountP=2;
 var picCountT=0;
 
 var activity = document.getElementById('idA');

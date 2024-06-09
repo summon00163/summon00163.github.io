@@ -56,14 +56,13 @@ header h2{
 	background-color:orange;
 }
 .footer{
-	width:100%;
 	height:200px;
 	background-color:#303030;
 }
 footer{
 	color:white;
 	text-align:center;
-	padding:40px;
+	padding:25px;
 }
 footer span a{
 	color:white;
