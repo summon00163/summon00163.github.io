@@ -1,6 +1,6 @@
 // JavaScript Document
 $.get("news.html",function(data){
-	$(".newscontent").load("news.html .main");
+	$(".newscontent").load("news.html #container");
 });
 $.get("story/say.html",function(data){
 	$(".saycontent").load("story/say.html .saying");
@@ -13,7 +13,6 @@ function randint(min, max) {
 var max=0;
 var typ=randint(1,3);
 var show=document.getElementById('show');
-var showIndex=document.getElementById('showIndex');
 if(typ===1){
 	max=9;
 }
