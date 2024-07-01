@@ -1,0 +1,15 @@
+/*请仔细做出甄别，
+article为优秀作文，learn为学习成果，
+在filename中写下文件名称；
+请让breaking中进行交错排列，
+例如这里的breaking的值是'breaking'，那么下一个breaking就应该是''（空白）；
+content处写标题，要与受链接文件的文章标题相同；
+author写作者,date（learn特有）写日期。*/
+{
+  article:[
+    {filename:'no0',breaking:'breaking',content:'××××',author:'×××'},
+  ],
+  learn:[
+    {filename:'no0',breaking:'breaking',content:'××××',author:'×××',date:'1970-01-01'},
+  ]
+}
