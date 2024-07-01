@@ -16,8 +16,10 @@ html{
 	padding-left:10px;
 }
 .chatlive{
+	padding:20px;
 	height:400px;
 	background-color:white;
+	overflow:auto
 }
 .input{
 	padding:3px 10px;
@@ -35,4 +37,7 @@ input{
 	border-radius:7px;
 	padding:1.3%;
 	cursor:pointer;
+}
+.user{
+	color:darkblue;
 }
