@@ -1,0 +1,9 @@
+//在pic中放置在image文件中的头像，在name中填写你的名字
+[
+{pic:"headerbg.jpg",name:"1"},
+{pic:"headerbg.jpg",name:"2"},
+{pic:"headerbg.jpg",name:"3"},
+{pic:"headerbg.jpg",name:"4"},
+{pic:"headerbg.jpg",name:"5"},
+{pic:"headerbg.jpg",name:"6"},
+];
