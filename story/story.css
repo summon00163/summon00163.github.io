@@ -2,7 +2,7 @@
 /* CSS Document */
 @font-face{
 	font-family:"MiSans";
-	src:url("font/MiSans VF.ttf")
+	src:url("../font/MiSans VF.ttf")
 }
 a{
 	text-decoration:none;
