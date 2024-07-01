@@ -46,14 +46,20 @@
 			</div>
 		</div>
 		<script src="js/handlebars.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
 		<script>
-			var news=[
-				{filename:'no0',breaking:'breaking',content:'××同学在××比赛中荣获一等奖',date:'1970-01-01'},
-			];
+			var news = $.ajax({
+				url: "https://summon00163.github.io/json/news.json",//json文件位置，文件名
+				type: "GET",//请求方式为get
+				dataType: "json", //返回数据格式为json
+				async: false,
+				success: function(data) {/*请求成功完成后要执行的方法*/}
+			}); 
+			var sub=eval("("+news.responseText+")");
 			var container = document.querySelector('#container');
 			var templateDom = document.querySelector('#template');
 			var template = Handlebars.compile(templateDom.innerHTML);
-			container.innerHTML = template(news);
+			container.innerHTML = template(sub);
 		</script>
 	</body>
 </html>

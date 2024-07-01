@@ -12,12 +12,21 @@
 				<div class="chatheader">
 					<a href="index.html">回到首页</a>
 				</div>
-				<div class="chatlive"></div>
-				<div class="input">
-					<input/>
+				<div class="chatlive" id="container">
+					<script type="text/x-handlebars-template" id="template">
+						{{#each this}}
+
+						<span class="user">{{name}}</span><span>:{{content}}</span>
+
+						{{/each}}
+					</script>
+				</div>
+				<div class="input" align="center">
+					<a style="line-height:50px;" href="https://github.com/summon00163/summon00163.github.io/blob/main/chat.json">转到…</a>
+					<!--input/>
 					<div class="send">
 						<span>发送</span>
-					</div>
+					</div-->
 				</div>
 			</div>
 			<div class="footer">
@@ -26,4 +35,20 @@
 		</div>
 	</body>
 	<script src="js/index.js" type="text/javascript"></script>
+	<script src="js/handlebars.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+		var chat = $.ajax({
+			url: "https://summon00163.github.io/chat.json",//json文件位置，文件名
+			type: "GET",//请求方式为get
+			dataType: "json", //返回数据格式为json
+			async: false,
+			success: function(data) {/*请求成功完成后要执行的方法*/}
+		}); 
+		var sub=eval("("+chat.responseText+")");
+		var container = document.querySelector('#container');
+		var templateDom = document.querySelector('#template');
+		var template = Handlebars.compile(templateDom.innerHTML);
+		container.innerHTML = template(sub);
+	</script>
 </html>
