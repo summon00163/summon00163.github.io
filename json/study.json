@@ -7,7 +7,7 @@ content处写标题，要与受链接文件的文章标题相同；
 author写作者,date（learn特有）写日期。*/
 {
   article:[
-    {filename:'no0',breaking:'breaking',content:'××××',author:'×××'},
+    {filename:'1-1',breaking:'breaking',content:'故乡的陪伴',author:'龚嘉靖'},
   ],
   learn:[
     {filename:'no0',breaking:'breaking',content:'××××',author:'×××',date:'1970-01-01'},
