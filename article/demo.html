@@ -1,44 +1,14 @@
 <!doctype html>
 <html>
-	<head>
-		<link rel="stylesheet" href="../css/study.css" type="text/css"/>
-		<meta charset="utf-8">
-		<title>班级网站</title>
-	</head>
-	<body>
-		<div class="app">
-			<div class="header">
-				<header>
-					<div class="bigtitle">
-						<h1 id="titled">1</h1>
-						<span id="author">1</span>
-					</div>
-					<div class="menu">
-						<div class="submenu">
-							<a href="../index.html">回到主页</a>
-						</div>
-						<div class="submenu">
-							<a href="../study.html">回到学习</a>
-						</div>
-					</div>
-				</header>
-			</div>
-			<div class="main" id="container">
-				
-			</div>
-			<div class="footer">
-				<script type="text/javascript" src="../../js/footer.js"></script>
-			</div>
-			<script>
-				var titled=document.getElementById('titled');
-				var container=document.getElementById('container');
-				var author=document.getElementById('author');
-				var title="×××××××";
-				document.title="班级网站 | "+title;
-				titled.innerHTML=title;
-				p=container.innerHTML="<p>111</p><p>1111</p>";
-				author.innerHTML='×××';
-			</script>
-		</div>
-	</body>
+	<script type="text/javascript" src="article.js"></script>
+	<script>
+		var titled=document.getElementById('titled');
+		var container=document.getElementById('container');
+		var author=document.getElementById('author');
+		var title="×××××××";
+		document.title="班级网站 | "+title;
+		titled.innerHTML=title;
+		p=container.innerHTML=`<p>111</p><p>1111</p>`;
+		author.innerHTML='×××';
+	</script>
 </html>
