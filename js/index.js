@@ -14,13 +14,13 @@ var max=0;
 var typ=randint(1,3);
 var show=document.getElementById('show');
 if(typ===1){
-	max=27;
+	max=picCountA;
 }
 else if(typ===2){
-	max=42;
+	max=picCountP;
 }
 else{
-	max=6;
+	max=picCountT;
 }
 var picCount=randint(1,max);
 var load = document.createElement('img');
