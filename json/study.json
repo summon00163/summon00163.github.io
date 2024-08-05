@@ -14,6 +14,8 @@ author写作者,date（learn特有）写日期。*/
 	{filename:'1-5',breaking:'breaking',content:'倾听风铃的声音',author:'肖嘉仪'},
 	{filename:'1-6',breaking:'',content:'后悔也是一种养料',author:'张建诏'},
 	{filename:'1-7',breaking:'breaking',content:'春联在心间',author:'张骏涛'},
+	{filename:'1-8',breaking:'',content:'木棉花在心间',author:'罗心怡'},
+	{filename:'1-9',breaking:'breaking',content:'一段独特的旅程',author:'袁浩烽'},
   ],
   learn:[
   	{filename:'no0',breaking:'breaking',content:'××××',author:'×××',date:'1970-01-01'},
