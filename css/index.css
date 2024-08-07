@@ -171,6 +171,9 @@ footer span a{
 .gallery .title{
 	border-radius:7px;
 }
+.article,.learn{
+ float:left;
+}
 marquee{
 	background-color:lightsalmon;
 	border-radius:7px;
