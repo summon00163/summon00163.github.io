@@ -1,72 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
-@font-face{
-	font-family:"MiSans";
-	src:url("../font/MiSans VF.ttf")
-}
-a{
-	text-decoration:none;
-	color:black;
-}
-html{
-	font-family: "MiSans";
-}
-div{
-	/*border:red 3px solid;*/
-	padding:1px;
-	margin:3px;
-	
-}
-.menu{
-	text-align:center;
-}
-.app{
-	width:100%;
-	height:100%;
-}
-.header{
-	background:url("../images/headerbg.jpg") right no-repeat;
-	background-size:cover;
-}
-header{
-	background:rgba(255,255,255,0.60);
-}
-header h1{
-	font-size:50pt;
-	font-weight:normal;
-	line-height:90px;
-}
-header h2{
-	font-size:30pt;
-	font-weight:normal;
-	line-height:40px;
-	text-align:right;
-}
-.menu{
-	background:pink;
-}
-.submenu a{
-	font-size:18pt;
-}
-.submenu{
-	width:130px;
-	display:inline-block;
-	text-align:center;
-	border-radius:15px;
-	background-color:orange;
-}
-.footer{
-	height:200px;
-	background-color:#303030;
-}
-footer{
-	color:white;
-	text-align:center;
-	padding:25px;
-}
-footer span a{
-	color:white;
-}
+
 .breaking{
 	background-color:antiquewhite;
 }
@@ -80,8 +13,8 @@ footer span a{
 	margin:15px;
 }
 .bigtitle span{
-	text-align:center;
 	font-size:20pt;
+	text-align:center;
 	margin:auto 30px;
 }
 #container p{

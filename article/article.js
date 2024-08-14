@@ -1,6 +1,7 @@
 // JavaScript Document
 document.writeln("<head>");
 document.writeln("		<link rel=\'stylesheet\' href=\'../css/study.css\' type=\'text/css\'/>");
+document.writeln("		<link rel=\'stylesheet\' href=\'../css/index.css\' type=\'text/css\'/>");
 document.writeln("		<meta charset=\'utf-8\'>");
 document.writeln("		<title>班级网站</title>");
 document.writeln("	</head>");

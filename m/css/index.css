@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{
+	text-decoration:none;
+	color:black;
+}
+html{
+	font-family: "MiSans";
+}
+div{
+	padding:1px;
+	margin:3px;
+}
+.menu{
+	text-align:center;
+}
+.app{
+	width:100%;
+	height:100%;
+}
+.header{
+	background:url("../../images/headerbg.jpg") right no-repeat;
+	background-size:cover;
+}
+header{
+	background:rgba(255,255,255,0.60);
+}
+header h1{
+	font-size:4.167rem;
+	font-weight:normal;
+	line-height:90px;
+}
+header h2{
+	font-size:2.5rem;
+	font-weight:normal;
+	line-height:40px;
+	text-align:right;
+}
+.menu{
+	background:pink;
+}
+.submenu a{
+	font-size:1.5rem;
+}
+.submenu{
+	width:130px;
+	display:inline-block;
+	text-align:center;
+	border-radius:15px;
+	background-color:orange;
+}
+table,table td{
+	width:100%;
+}
+table td div{
+	width:95%;
+	text-align:center;
+	margin:5px auto 3px auto;
+	background-color:lightsalmon;
+	border-radius:7px;
+}
+.album{
+	height:500px;
+}
+.title{
+	text-align:center;
+	height:30px;
+	font-size:1.5rem;
+	background-color:aquamarine;
+}
+.albumcontent{
+	height:440px;
+	overflow:hidden;
+}
+.quote{
+	height:250px;
+}
+.quotecontent{
+	height:190px;
+}
+#quotetext{
+	font-weight:500;
+	margin:3%;
+}
+.news{
+	height:500px;
+}
+.newscontent{
+	height:440px;
+}
+.vote{
+	height:400px;
+}
+.votecontent{
+	height:340px;
+}
+.chat{
+	height:132px;
+	margin-top:10px;
+	text-align:center;
+	line-height:130px;
+	font-size:2.083rem;
+	background:linear-gradient(aqua,lightgreen);
+}
+.footer{
+	height:200px;
+	background-color:#303030;
+}
+footer{
+	color:white;
+	text-align:center;
+	padding:25px;
+}
+footer span a{
+	color:white;
+}
+.member{
+	width:210px;
+	height:260px;
+	background-color:lightyellow;
+	display:inline-block;
+	border-radius:7px;
+}
+.head{
+	height:200px;
+	border-radius:100%;
+	border:2px solid lightblue;
+	overflow:hidden;
+}
+.name{
+	height:35px;
+	border-radius:7px;
+	text-align:center;
+	line-height:35px;
+	font-size:1.67rem;
+	background-color:aquamarine;
+}
+.say{
+	height:500px;
+}
+.saycontent{
+	height:440px;
+	overflow:auto;
+}
+.breaking{
+	background-color:antiquewhite;
+}
+.date{
+	display:block;
+	text-align:right;
+}
+.gallarycontent{
+	height:190px;
+}
+.gallery{
+	height:250px;
+	text-align:center;
+	margin:5px auto 3px auto;
+	background-color:lightsalmon;
+	border-radius:7px;
+}
+.gallery .title{
+	border-radius:7px;
+}
+.article,.learn{
+ float:left;
+}
+marquee{
+	background-color:lightsalmon;
+	border-radius:7px;
+}
+#show{
+	display: flex;
+  	justify-content: center;
+  	align-items: center; 
+}
+#show img{
+	width:100%;
+}
+#showIndex{
+	display: flex;
+  	justify-content: center;
+  	align-items: center; 
+}
+#showIndex img{
+	width:100%;
+}

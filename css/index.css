@@ -32,12 +32,12 @@ header{
 	background:rgba(255,255,255,0.60);
 }
 header h1{
-	font-size:50pt;
+	font-size:4.167rem;
 	font-weight:normal;
 	line-height:90px;
 }
 header h2{
-	font-size:30pt;
+	font-size:2.5rem;
 	font-weight:normal;
 	line-height:40px;
 	text-align:right;
@@ -46,7 +46,7 @@ header h2{
 	background:pink;
 }
 .submenu a{
-	font-size:18pt;
+	font-size:1.5rem;
 }
 .submenu{
 	width:130px;
@@ -74,7 +74,7 @@ table td div{
 .title{
 	text-align:center;
 	height:30px;
-	font-size:18pt;
+	font-size:1.5rem;
 	background-color:aquamarine;
 }
 .albumcontent{
@@ -108,7 +108,7 @@ table td div{
 	margin-top:10px;
 	text-align:center;
 	line-height:130px;
-	font-size:25pt;
+	font-size:2.083rem;
 	background:linear-gradient(aqua,lightgreen);
 }
 .footer{
@@ -141,7 +141,7 @@ footer span a{
 	border-radius:7px;
 	text-align:center;
 	line-height:35px;
-	font-size:20pt;
+	font-size:1.67rem;
 	background-color:aquamarine;
 }
 .say{
