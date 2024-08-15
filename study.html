@@ -15,10 +15,10 @@
 							<a href="/index.html">回到主页</a>
 						</div>
 						<div class="submenu">
-							<a href="study/article.html">优秀作文</a>
+							<a href="#Acontainer">优秀作文</a>
 						</div>
 						<div class="submenu">
-							<a href="study/learn.html">学习成果</a>
+							<a href="#Lcontainer">学习成果</a>
 						</div>
 					</div>
 				</header>
@@ -100,6 +100,9 @@
 			var LtemplateDom = document.querySelector('#Ltemplate');
 			var Ltemplate = Handlebars.compile(LtemplateDom.innerHTML);
 			Lcontainer.innerHTML = Ltemplate(sub);
+			if (isMobile()){
+				window.location.href='https://summon00163.github.io/m/study.html';
+			}
 		</script>
 	</body>
 </html>

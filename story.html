@@ -91,6 +91,9 @@
 			var templateDom = document.querySelector('#template');
 			var template = Handlebars.compile(templateDom.innerHTML);
 			container.innerHTML = template(sub);
+			if (isMobile()){
+				window.location.href='https://summon00163.github.io/m/story.html';
+			}
 		</script>
 	</body>
 </html>

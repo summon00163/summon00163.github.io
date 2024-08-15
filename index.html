@@ -134,6 +134,9 @@
 			var templateDom = document.querySelector('#template');
 			var template = Handlebars.compile(templateDom.innerHTML);
 			container.innerHTML = template(newssub);
+			if (isMobile()){
+				window.location.href='https://summon00163.github.io/m';
+			}
 		</script>
 	</body>
 </html>

@@ -15,10 +15,10 @@
 							<a href="/index.html">回到主页</a>
 						</div>
 						<div class="submenu">
-							<a href="study/article.html">优秀作文</a>
+							<a href="#Acontainer">优秀作文</a>
 						</div>
 						<div class="submenu">
-							<a href="study/learn.html">学习成果</a>
+							<a href="#Lcontainer">学习成果</a>
 						</div>
 					</div>
 				</header>
@@ -76,11 +76,12 @@
 				</table>
 			</div>
 			<div class="footer">
-				<script type="text/javascript" src="js/footer.js"></script>
+				<script type="text/javascript" src="../js/footer.js"></script>
 			</div>
 		</div>
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script src="js/handlebars.js" type="text/javascript"></script>
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script src="../js/index.js" type="text/javascript"></script>
+		<script src="../js/handlebars.js" type="text/javascript"></script>
 		<script>
 			var study = $.ajax({
 				url: "https://summon00163.github.io/json/study.json",//json文件位置，文件名
@@ -98,6 +99,9 @@
 			var LtemplateDom = document.querySelector('#Ltemplate');
 			var Ltemplate = Handlebars.compile(LtemplateDom.innerHTML);
 			Lcontainer.innerHTML = Ltemplate(sub);
+			if (isMobile()===false){
+				window.location.href='https://summon00163.github.io/study.html';
+			}
 		</script>
 	</body>
 </html>

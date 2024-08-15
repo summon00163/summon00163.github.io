@@ -34,8 +34,3 @@ function isMobile(){
 		return false;
 	}
 }
-var loc='';
-if (isMobile()){
-	var loc='/m';
-}
-window.location.href='https://summon00163.github.io'+loc;
