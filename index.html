@@ -134,6 +134,8 @@
 			var templateDom = document.querySelector('#template');
 			var template = Handlebars.compile(templateDom.innerHTML);
 			container.innerHTML = template(newssub);
+			load.src='story/subgallery/images/'+typ+'-'+picCount+'.jpg';
+			show.append(load);
 			if (isMobile()){
 				window.location.href='https://summon00163.github.io/m';
 			}

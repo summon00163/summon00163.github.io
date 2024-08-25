@@ -24,8 +24,6 @@ else{
 }
 var picCount=randint(1,max);
 var load = document.createElement('img');
-load.src='story/subgallery/images/'+typ+'-'+picCount+'.jpg';
-show.append(load);
 function isMobile(){
 	if (window.navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|WebOS|Symbian|Windows Phone)/i)){
 		return true;
