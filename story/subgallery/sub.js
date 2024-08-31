@@ -1,5 +1,5 @@
 var picCountA=47;
-var picCountP=64;
+var picCountP=69;
 var picCountT=7;
 
 var together = document.getElementById('idT');
